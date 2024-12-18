@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>it is challenge of media query</title>
+    <style>
+        .smart-green{
+             margin-left: auto;
+             margin-right: auto;
+             max-width: 500px;
+             background-color: chocolate;
+             padding: 30px 30px 20px 30px;
+             font: 12px Arial,Helvetica,sans-serif;
+             color: beige;
+             border-radius: 5px;
+             -moz-border-left-colors: palegreen;
+        }
+        .smart-green h1{
+padding: 28px 0px 28px 48px;
+display: black;
+margin: -30px -30px -10px -30px;
+color: aqua;
+background-color: yellowgreen;
+border-radius: 5px 5px 0px 8px;
+border-bottom: 1px solid #89a;
+
+        }
+        .smart-green h1>span{
+            display: yellow;
+            padding: 20px 8px 40px 10px ;
+
+        }
+        .smart-green label{
+            display: block;
+            margin-top: 0px 0px 5px;
+            
+
+        }
+        .smart-green label>span{
+            float: left;
+            margin-top: 10px;
+            color: #09c823;
+            font-size: 20px;
+            font-weight: 500;
+
+        }
+        .smart-green input[type="text"].smart-green input[type="email"].smart-green textarea,.smart-green select{
+            color: #666;
+            height: 30px;
+            width: 100px;
+            padding: 0px 8px 10px;
+            background-color: cornflowerblue;
+            outline: 0;
+
+        }
+        .smart-green textarea{
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <form action=""media="past" class="smart-green">
+        <h1>Contact Form 
+            <span>please fill all the texts in the field.</span>
+        </h1>
+        <label>
+<span>Your Name</span>
+<input id="email" type="text" nane="name" placeholder="yourfullname" />
+        </label>
+        <label>
+        <span>Your Email</span>
+        <input id="email" type="email" name="email" placeholder="Valid email address" />
+            
+        </label>
+        <label>
+            <span>Massage</span>
+            <textarea id="Massage" name="massage" placeholder="Your massage to us  "></textarea>
+        </label>
+       <!-- <label>
+            <span>Send</span>
+            <textarea id="send" name="send" placeholder="send"></textarea>
+        </label>-->
+        <label>
+            <span>Subject</span><select name="selection">
+                <option value="job inquiry">Job inquiry</option>
+                <option value="General question">General question</option>
+            </select>
+
+        </label>
+        <label>
+        <span></span>
+        <input type="button " class="botton " value="send"/>
+        </label>
+    </form>
+</body>
+</html>
